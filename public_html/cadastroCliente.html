@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>deliPromotion</title>
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="css/font-awesome.css"/>
+        <link rel="stylesheet" href="css/flexslider.css"/>
+        <link rel="stylesheet" href="css/style.min.css"/>
+        <!-- Theme CSS -->
+
+        <link href="css/bootstrap.min.css" rel="stylesheet"> 
+        <!-- Custom CSS -->
+        <link href="css/estilo.css" rel="stylesheet"> 
+
+        <!-- Custom Fonts -->
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
+    </head>
+
+    <body>
+        <header id="top" class="header navbar-fixed-top">
+            <div class="container">
+                <h1 class="logo pull-left">
+                    <a class="scrollto" href="index.html">
+                        <img id="logo-image" class="logo-image" src="" alt="">
+                        <span class="logo-title">
+                            deliPromotion
+                        </span>
+                    </a>
+                </h1>
+                <!-- //logo -->
+                <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">
+                                Toggle navigation
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item sr-only">
+                                <a class="scrollto" href="#home">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="scrollto" href="lojas.html">
+                                    Parceiros
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="scrollto" href="index.html">
+                                    Contato
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="scrollto" href="cadastroUsuario.html">
+                                    Cadastre-se
+                                </a>
+                            </li>
+                            <li class="btn-group list-inline">
+                                <a href="login.html" class="btn btn-default">Entrar</a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>  
+        <br/> <br/><br/> <br/><br/>
+       <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Cadastrar Empresa
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form" class="ng-pristine ng-valid ng-valid-email ng-valid-br-phone-number">
+                        <fieldset>
+                            <div class="form-group" id="nome">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" placeholder="Nome Fantasia" type="text">
+                            </div>
+                            <div class="form-group" id="razao">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" placeholder="Razão Social" type="text">
+                            </div>
+                             <div class="form-group" id="cnpj">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" placeholder="CNPJ" type="text">
+                            </div>
+                            <div class="form-group" id="email">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-email" placeholder="E-mail" type="email" >
+                            </div>
+                            <div class="form-group" id="telefone">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-br-phone-number" placeholder="Telefone" type="text">
+                            </div>
+                            <div class="form-group" id="senha">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" placeholder="Senha" type="password">
+                            </div>
+                            <div class="form-group" id="confirmacaoSenha">
+                                <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" placeholder="Confirmar senha" type="password" >
+                            </div>
+                           
+                            
+                            <input href="" type="submit" value="Cadastrar" class="btn btn-lg btn-primary btn-block">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <footer class="footer">
+            
+                <div class="row text-center">
+                       Todos os direitos reservados a delipromotion.
+                </div>
+    </footer>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/sistore.js"></script>
+
+    </body>
+
+</html>
